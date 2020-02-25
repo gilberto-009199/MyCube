@@ -1,0 +1,45 @@
+{
+  "name": "mycube",
+  "version": "1.0.0",
+  "description": "Projeto de compartilhamentod e arquivos de midia via torrent",
+  "author": "gilberto ramos",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "webtorrent",
+    "torrent",
+    "midia"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "elegant-icons": "0.0.1",
+    "primeflex": "^1.0.0",
+    "primeicons": "^2.0.0",
+    "primereact": "3.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.3",
+    "react-transition-group": "^4.3.0",
+    "webtorrent": "0.107.17"
+  },
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-prebuilt": "^1.4.13",
+    "react-router-dom": "^5.1.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
