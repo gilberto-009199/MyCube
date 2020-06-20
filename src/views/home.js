@@ -43,7 +43,7 @@ class home2 extends Component {
     }
 
     rowExpansionTemplate(data){
-        console.log("Data!");
+        console.log("Data!",data);
         
         
         this.state.view = document.querySelector('video#video-view');
@@ -66,13 +66,13 @@ class home2 extends Component {
                 <div className="p-grid">
                      
                      <Sidebar fullScreen={true} visible={this.state.visible}>
-                        <video id="video-view"></video>
+                        
                         <h1>hellow</h1>
                     </Sidebar>
                     <div className="p-col-8">
                         <DataTable value={this.state.torrents.items} responsive={true}  expandedRows={this.state.expandedRows} 
                                    onRowToggle={(e) => this.setState({expandedRows:e.data})}
-                                   rowExpansionTemplate={this.rowExpansionTemplate}
+                                   rowExpansionTemplate={(e)=>this.rowExpansionTemplate(e)}
                                    >
                             <Column expander={true} style={{width: '3em'}} />
                             <Column field="name"     header="nome"/>

@@ -1,3 +1,10 @@
+#video-view{
+    position: absolute;
+    z-index: 99;
+    width: 600px;
+    bottom: 0;
+    right: 0;
+}
 window{
     width:100%;
     height:auto;
