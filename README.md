@@ -14,6 +14,6 @@
 ## Bibliotecas
 
 * [WebTorrent](https://webtorrent.io) - Cliente torrent de streaming
-* [React](https://www.thymeleaf.org) - biblioteca JavaScript para criar interfaces de usuário
+* [React](https://pt-br.reactjs.org) - biblioteca JavaScript para criar interfaces de usuário
 * [PrimeReact](https://www.primefaces.org/primereact/) - Biblioteca de components para agilizar
 
