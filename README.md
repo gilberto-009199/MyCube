@@ -1,6 +1,6 @@
 # Projeto MyCube
   
-  ![Tela inicial](./home.png)
+  ![Tela inicial](./home1.png)
   
   Projeto Desktop em electron e react, com a implementação do webtorrent em electron
  para criar uma player de video que baixa videos em torrent e os reproduz
