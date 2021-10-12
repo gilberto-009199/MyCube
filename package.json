@@ -32,7 +32,7 @@
     "webtorrent": "0.107.17"
   },
   "devDependencies": {
-    "electron": "^4.0.4",
+    "electron": "^11.5.0",
     "electron-prebuilt": "^1.4.13",
     "react-router-dom": "^5.1.2"
   },
